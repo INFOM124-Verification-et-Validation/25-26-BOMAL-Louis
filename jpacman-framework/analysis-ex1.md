@@ -1,9 +1,9 @@
 # Specification-based Testing
 
 ## 1. Goal, inputs and outputs
-- Goal:
-- Input domain:
-- Output domain:
+- Goal: returns the direction the ghost should take next
+- Input domain: Ghost object instance
+- Output domain: null or a value of enumeration Direction which consists of four possibilities
 
 ## 2. Explore the program (if needed)
 
