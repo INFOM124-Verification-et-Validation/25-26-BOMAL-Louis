@@ -15,7 +15,7 @@ import java.util.Optional;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class ClydeTest {
+public class ClydeTest2 {
     //beforeeach seulement si on doit reset les objets entre différents tests, ici on doit pas donc pas nécessaire
     private PacManSprites sprites = new PacManSprites();
 
