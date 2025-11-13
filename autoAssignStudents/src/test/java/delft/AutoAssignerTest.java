@@ -38,7 +38,7 @@ class AutoAssignerTest {
 
 
     @Test
-    public void testNoPlaceForOneDateForTwoWorkshops(){
+    void testNoPlaceForOneDateForTwoWorkshops(){
         students.add(thomas);
         students.add(anas);
 
@@ -65,7 +65,7 @@ class AutoAssignerTest {
     }
 
     @Test
-    public void testNoSpotsAtAll(){
+    void testNoSpotsAtAll(){
         students.add(thomas);
         students.add(anas);
 
@@ -95,7 +95,7 @@ class AutoAssignerTest {
     }
 
     @Test
-    public void testValidStudent(){
+    void testValidStudent(){
         assertEquals("graboulette@gmail.com", thomas.getEmail());
         assertEquals("thomas", thomas.getName());
         assertEquals(1, thomas.getId());
